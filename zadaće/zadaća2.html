@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zadaća2</title>
+    <title>Prijava za volontiranje</title>
 </head>
 <body>
-    <h1>zadaća2</h1>
+    <h1>Pannonian Challenge XXIV</h1>
+    
+    <table border="1">
+        <caption>Raspored</caption>
+        
+<tr>
+    <td></td>
+    <th>9-12am</th>
+    <th>12-15am</th>
+    <th>15-19am</th>
+    
+</tr>
+<tr>
+    <th rowspan="2">16. 6. Friday</th>
+    <th colspan="3">SKATE</th>
+</tr>
+<tr>
+    <td>pro</td>
+    <td>amateur</td>
+    <td>women</td>
+    
+</tr>
+<tr>
+    <th rowspan="2">17.6. Saturtday</th>
+    <th colspan="3">BMX</th>
+</tr>
+<tr>
+    <td>pro</td>
+    <td>amateur</td>
+    <td>women</td>
+</tr>
+<tr>
+    <th rowspan="2">18.6. Sunday</th>
+    <th colspan="3">INLINE</th>
+    
+</tr>
+<tr>
+    <td>pro</td>
+    <td>amateur</td>
+    <td>women</td>
+</tr>
+    </table>
+<br>
+<hr>
+<h3>Obrazac za prijavu na volontiranje</h3>
+
+<form name="obrazac1" action="link1.html" method="post" autocomplete="off">
+    <p>
+        <label for="ime">Ime i prezime:</label>
+        <input id="ime" type="text" size="15" maxlength="15" placeholder="Unesi ime i prezime..." required>
+        <br>
+        <br>
+        
+        <label for="pass">Vaša lozinka:</label>
+        <input type="password" name="password" id="pass" size="15" placeholder="Unesi lozinku..." required>
+        
+        <br>
+        <hr>
+        
+        <p>Prijavljujem se kao:</p>
+        <input type="radio" name="language" id="admin" value="admin" >
+<label for="admin">Administrator</label> <br>
+<input type="radio" name="language" id="guest" value="guest">
+<label for="guest">Gost</label> <br>
+        
+<br>
+<hr>
+<p>Prihvaćaš li uvjete korištenja?</p>
+<input type="checkbox" id="scales" name="scales" checked />
+    <label for="scales">Prihvaćam</label>
+<br>
+<br>
+<input type="submit" value="Pošalji">
+<input type="reset" value="Poništi">
+    </p>
+</form>
+<br>
+<hr>
+<br>
+<p>Pogledaj videozapis</p>
+<video width="340" height="220" controls>
+    <source src="audio/videoplayback.mp4" type="video/mp4">
+</video>
+<br>
+<br>
+<hr>
+<br>
+
+<p>Poslušaj audiozapis</p>
+<audio controls>
+    <source src="audio/DaBaby - BOP on Broadway (Hip Hop Musical).mp3" type="audio/mp3">
+</audio>
+
+
 </body>
 </html>
