@@ -1,11 +1,32 @@
+h3 {
+    color: blue;
+   
+}
+h6 {
+    font-size:medium;
+    text-align: center;
+}
+html {
+    font-size: 12px;
+}
+body {
+    background-color: rgb(19, 62, 110);
+}
 h1 {
-    color:rebeccapurple;
+    color: #6a8a19;
+    font-family:'Poppins', sans-serif;
 }
 
-p , ul, li {
-    color: blueviolet;
-}
-
+/*oznaka klase (točka)*/
 .paragraf1 {
-    color: maroon
+color: blue;
+/*veličine: px, %, rem*/
+font-size: 30px;
+font-weight: 700;
+}
+/*oznaka id (ljestvice)*/
+#paragraf2 {
+color: rgb(20, 146, 125);
+font-size: 2rem;
+font-weight: bolder;
 }
