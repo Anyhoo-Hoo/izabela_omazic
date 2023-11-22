@@ -30,3 +30,8 @@ color: rgb(20, 146, 125);
 font-size: 2rem;
 font-weight: bolder;
 }
+
+h1 {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+}
