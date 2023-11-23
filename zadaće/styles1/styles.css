@@ -32,23 +32,35 @@ h2 {
 .summary {
     background-color: #ECEFF1;
 }
-ul.a {
+.a {
     list-style-type:decimal;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-ul.b {
+.b {
     list-style-type: circle;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-ul.c {
+.c {
     list-style-type:decimal-leading-zero;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-ul.d {
+.d {
     list-style-type: disc;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-ul.e {
+.e {
     list-style-type: square;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-ul.f {
+.f {
     list-style-type: lower-latin;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     background-color:  #FAFAFA;
