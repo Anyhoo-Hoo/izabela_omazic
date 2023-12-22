@@ -39,46 +39,42 @@
    }
    .container {
     display: grid;
-    gap: 10px;
+    gap: 10px
    }
    .one {
     background-color: rgb(229, 130, 130);
-  grid-column: span 3;
-  grid-row: span 1;
-  height: 250px;
+  grid-column: span 12;
+  grid-row: span 5;
 }
     .two {
     background-color: turquoise;
-  grid-column: span 2 ;
-  grid-row: span 2;
-  height: 750px;
+  grid-column: span 8;
+  grid-row: span 7;
 }
     .three {
     background-color: violet;
-  grid-column: span 1;
-  grid-row: span 2;
-  height: 750px;
+  grid-column: span 4;
+  grid-row: span 7;
+
 }
-    @media (min-width: 319px) and (max-width: 480px) {
+    @media (max-width: 480px) {
       body {
         background-color: rgb(224, 199, 189);
       }
       .one {
         width: 100%;
-        grid-row: span 3;
+        grid-row: span 12;
+        grid-column: span 12;
       }
       .two {
         width: 100%;
-        grid-row: span 3;
+        grid-row: span 12;
+        grid-column: span 12;
       }
       .three {
         width: 100%;
-       grid-row: span 3;
-      }
-    }
-    @media (min-width: 481px) and (max-width: 1200px) {
-      body {
-        background-color: rgb(181, 141, 125);
+       grid-row: span 12;
+       grid-column: span 12;
       }
     }
 </style>
