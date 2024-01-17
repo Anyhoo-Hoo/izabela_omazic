@@ -20,3 +20,17 @@ else {
   
 }
 /* != ili === znači jednakost */
+prompt ("Unesi broj:");
+var randomNumber1 = Math.random();
+randomNumber1 = randomNumber1 * 10;
+randomNumber1 = Math.floor(randomNumber1)+1;
+
+var randomNumber2 = Math.random();
+randomNumber2 = randomNumber2 * 10;
+randomNumber2 = Math.floor(randomNumber2)-1;
+if(randomNumber1 > randomNumber2) {
+    alert ("Broj je veći od 10.")
+}
+else if(randomNumber1 < randomNumber2) {
+    alert("Broj je manji od 10.")
+}

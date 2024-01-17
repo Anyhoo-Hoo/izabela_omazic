@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+    <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+    <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+    <style lang="en" type="text/css" id="dark-mode-native-style"></style>
+    <style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +12,7 @@
     <meta name="destription" content="Moja web stranica">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Moja web stranica</title>
@@ -17,6 +23,58 @@
     </style> -->
 </head>
 <body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Ovo je moja Web stranica</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">O meni</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Hobiji</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Putovanja</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Zadaće</a></li>
+          </ul>
+        </header>
+      </div>
+      <div class="container px-4 py-5" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+            <ul>
+                <li>Imam 22 godine.</li>
+                <li>Rođena sam u gradu Bijelo-plavih - Osijeku.</li>
+                <li>Imam brata i sestru.</li>
+            </ul>     
+            </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+            <ul>
+                <li>Boravim u Slavonskom Brodu.</li>
+                <li>U istom gradu studiram na Učiteljskom studiju s modulom pojačane Informatike.</li>
+                <li>Za kolegice i profesore na fakultetu sam <i>Legica.</i></li>
+            </ul>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+            <ul>
+                <li>Radim u restoranu brze hrane - <i>McDonald's</i>-u.</li>
+                <li>Slobodno vrijeme provodim igrajući društvene igre s prijateljima, u šetnji, odlaskom na kave i u izlaske.</li>
+                <li>Najviše od svega volim provoditi vrijeme s dečkom i slušajući glazbu.</li>
+            </ul>    
+          </div>
+        </div>
+      </div>
     <h1>Naslov 1</h1>
     <h2>Naslov 2</h2>
     <h3>Naslov 3</h3>
